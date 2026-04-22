@@ -34,27 +34,19 @@ L'analyse se déroule en trois étapes, chacune correspondant à un notebook dé
 
 ---
 
-## 📓 Notebooks
+## Notebooks
 
-### `datatest.ipynb` — Analyse de la base des acteurs
-Exploration et nettoyage de la base de données Kaggle sur les acteurs. Ce notebook couvre :
-- Aperçu général du dataset (dimensions, types, valeurs manquantes)
-- Distribution des acteurs par nationalité, genre, période d'activité
-- Visualisations descriptives
+### `datatest.ipynb` — Analyse de la base de données des acteurs
+Exploration et nettoyage de la base de données [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)) sur les acteurs. Ce notebook couvre :
+- Aperçu général du dataset (dimensions, types, valeurs manquantes)s
 
-### `mbti.ipynb` — Analyse de la base MBTI
-Exploration de la base de données Kaggle recensant les célébrités et leur type de personnalité MBTI. Ce notebook couvre :
+### `mbti.ipynb` — Analyse de la base de données MBTI
+Exploration de la base de données [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti)) recensant les célébrités et leur type de personnalité MBTI. Ce notebook couvre :
 - Aperçu général du dataset
-- Répartition des 16 types MBTI dans la population des célébrités
-- Analyse des dimensions (I/E, N/S, T/F, J/P)
-- Visualisations descriptives
 
 ### `graph.ipynb` — Croisement & analyse des liens
-Fusion des deux bases de données et recherche d'un lien entre profil MBTI et métier d'acteur. Ce notebook couvre :
+Fusion des deux bases de données et recherche d'un lien entre profil MBTI et relations d'acteur. Ce notebook couvre :
 - Jointure et nettoyage des données croisées
-- Comparaison de la distribution MBTI des acteurs vs autres célébrités
-- Tests statistiques et/ou visualisations comparatives
-- Conclusions sur le lien potentiel
 
 ---
 
