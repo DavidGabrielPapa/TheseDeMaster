@@ -26,7 +26,7 @@ L'analyse se déroule en trois étapes, chacune correspondant à un notebook dé
 │        └── *.png
 │   └── MBTI/
 │        └── *.png
-│   └── Relations/
+│   └── Graph/
 │        └── *.png
 │
 └── README.md
@@ -37,11 +37,11 @@ L'analyse se déroule en trois étapes, chacune correspondant à un notebook dé
 ## Notebooks
 
 ### `datatest.ipynb` — Analyse de la base de données des acteurs
-Exploration et nettoyage de la base de données [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)) sur les acteurs. Ce notebook couvre :
-- Aperçu général du dataset (dimensions, types, valeurs manquantes)s
+Exploration et nettoyage de la base de données [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) sur les acteurs. Ce notebook couvre :
+- Aperçu général du dataset (dimensions, types, valeurs manquantes)
 
 ### `mbti.ipynb` — Analyse de la base de données MBTI
-Exploration de la base de données [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti)) recensant les célébrités et leur type de personnalité MBTI. Ce notebook couvre :
+Exploration de la base de données [Kaggle](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti) recensant les célébrités et leur type de personnalité MBTI. Ce notebook couvre :
 - Aperçu général du dataset
 
 ### `graph.ipynb` — Croisement & analyse des liens
@@ -54,8 +54,8 @@ Fusion des deux bases de données et recherche d'un lien entre profil MBTI et re
 
 | Dataset | Source | Description |
 |--------|--------|-------------|
-| Acteurs | [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)) | Base de données sur les acteurs |
-| MBTI Célébrités | [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti)) | Célébrités et leur type de personnalité MBTI |
+| Acteurs | [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) | Base de données sur les acteurs |
+| MBTI Célébrités | [Kaggle](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti) | Célébrités et leur type de personnalité MBTI |
 
 ---
 
