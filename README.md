@@ -1,4 +1,4 @@
-# Projet de master
+# Compatibilité de personnalité et collaboration : une approche MBTI des relations entre acteurs
 
 > Exploration du lien entre le profil psychologique MBTI et les relations entre acteurs.
 
@@ -6,7 +6,7 @@
 
 ## Description du projet
 
-Tenter de répondre à cette question : **Existe-t-il un lien entre le type de personnalité MBTI d'un acteur et leurs relations entre eux ?**
+Tenter de répondre à la question : **Existe-t-il un lien entre le type de personnalité MBTI d'un acteur et leurs relations entre eux ?**
 
 L'analyse se déroule en trois étapes, chacune correspondant à un notebook dédié : exploration individuelle des deux bases de données, puis mise en commun et analyse croisée.
 
@@ -29,6 +29,10 @@ L'analyse se déroule en trois étapes, chacune correspondant à un notebook dé
 │   └── Graph/
 │        └── *.png
 │
+├── Rapport du mémoire de master.pdf    # Rapport en français
+├── Master thesis report.pdf            # Rapport en anglais (traduit par IA)
+├── Présentation_mémoire_master.pdf     # Slides de présentation du travail
+│
 └── README.md
 ```
 
@@ -37,20 +41,32 @@ L'analyse se déroule en trois étapes, chacune correspondant à un notebook dé
 ## Notebooks
 
 ### `datatest.ipynb` — Analyse de la base de données des acteurs
-Exploration et nettoyage de la base de données [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) sur les acteurs. Ce notebook couvre :
-- Aperçu général du dataset (dimensions, types, valeurs manquantes)
+Exploration et nettoyage de la base de données [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) sur les acteurs.
 
 ### `mbti.ipynb` — Analyse de la base de données MBTI
-Exploration de la base de données [Kaggle](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti) recensant les célébrités et leur type de personnalité MBTI. Ce notebook couvre :
-- Aperçu général du dataset
+Exploration de la base de données [Kaggle](https://www.kaggle.com/datasets/yuraslastya/celeb-mbti) recensant les célébrités et leur type de personnalité MBTI.
 
 ### `graph.ipynb` — Croisement & analyse des liens
 Fusion des deux bases de données et recherche d'un lien entre profil MBTI et relations d'acteur. Ce notebook couvre :
 - Jointure et nettoyage des données croisées
+- Homophilie
+- Hétérophilie
 
 ---
 
-## Sources de données
+## PDF
+
+### `Rapport du mémoire de master.pdf` — Rapport sur le travail
+
+### `Master thesis report.pdf ` — Rapport sur le travail en anglais
+Traduction faite par IA. Sert à facilité la compréhension mais se référer à la version française pour juger le travail.
+
+### `Présentation_mémoire_master.pdf` — Slides pour la soutenance
+Slides de présentation utilisées pour la soutenance du mémoire de master.
+
+---
+
+## Bases de données
 
 | Dataset | Source | Description |
 |--------|--------|-------------|
@@ -75,7 +91,7 @@ Fusion des deux bases de données et recherche d'un lien entre profil MBTI et re
 
 ## Dossier Images
 
-Le dossier `Images/` contient tous les graphiques générés par les notebooks. Ils sont exportés automatiquement lors de l'exécution des cellules de visualisation.
+Le dossier `Images/` contient tous les graphiques générés par les notebooks. Ils sont exportés automatiquement lors de l'exécution des notebooks.
 
 ---
 
